@@ -104,11 +104,11 @@ body {
 
 h1 {
   font-family: 'Waterway', sans-serif;
-  font-size: 80px;
+  font-size: 80px; /* Размер для десктопов */
   text-transform: uppercase;
   color: transparent;
-  background-image: url('images/watercolor-splash-background.jpg');
   background-size: cover;
+  background-color: white;
   -webkit-background-clip: text;
   background-clip: text;
   margin: 0;
@@ -593,6 +593,10 @@ body.loaded .sidebar {
 
 /* Медиа-запросы для мобильных устройств (до 768px) */
 @media (max-width: 768px) {
+    .h1 {
+        font-size: 40px; /* Уменьшенный размер для мобильных устройств */
+      }
+    }
     .restaurant-section {
         flex-direction: column; /* Рестораны в столбик */
         height: auto; /* Автоматическая высота */
