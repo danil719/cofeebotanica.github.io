@@ -593,8 +593,8 @@ body.loaded .sidebar {
 
 /* Медиа-запросы для мобильных устройств (до 768px) */
 @media (max-width: 768px) {
-    .h1 {
-        font-size: 40px; /* Уменьшенный размер для мобильных устройств */
+    .title h1 {
+    font-size: 40px; /* Оптимальный размер для iPhone 14 Pro */
     }
     .restaurant-section {
         flex-direction: column; /* Рестораны в столбик */
