@@ -595,7 +595,6 @@ body.loaded .sidebar {
 @media (max-width: 768px) {
     .h1 {
         font-size: 40px; /* Уменьшенный размер для мобильных устройств */
-      }
     }
     .restaurant-section {
         flex-direction: column; /* Рестораны в столбик */
