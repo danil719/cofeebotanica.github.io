@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Меню</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+</head>
+<body>
+    <!-- Спиннер загрузки -->
+    <div id="loading-bar-spinner" class="spinner"><div class="spinner-icon"></div></div>
+
+    <!-- Анимация крестика -->
+    <div class="menu-icon" id="menu-icon">
+        <span></span>
+        <span></span>
+    </div>
+
+    <!-- Боковое меню -->
+    <div class="sidebar" id="sidebar">
+        <div class="logo-details">
+            <span class="logo_name">Coffee & Botanica</span>
+        </div>
+        <ul class="nav-links">
+    <li>
+        <a href="index.html">
+            <i class='bx bx-home'></i>
+            <span class="link_name">Главная</span>
+        </a>
+    </li>
+    <li>
+        <a href="index.html#restaurants">
+            <i class='bx bx-restaurant'></i>
+            <span class="link_name">Рестораны</span>
+        </a>
+    </li>
+    <li>
+        <a href="index.html#products">
+            <i class='bx bx-coffee'></i>
+            <span class="link_name">Наши продукты</span>
+        </a>
+    </li>
+    <li>
+        <a href="index.html#franchise">
+            <i class='bx bx-store'></i>
+            <span class="link_name">Франшиза</span>
+        </a>
+    </li>
+</ul>
+    </div>
+
+    <!-- Основной контент -->
+    <section class="home-section">
+        <!-- Первая страница -->
+        <section class="first-page">
+            <div class="background-image"></div> <!-- Фоновое изображение -->
+            <div class="title">
+                <h1 id="animated-text">Coffee & Botanica</h1>
+            </div>
+        </section>
+
+        <!-- Вторая страница (секция "Рестораны") -->
+        <section id="restaurants" class="restaurant-section">
+            <div class="restaurant-item" data-target="#restaurant-1">
+                <a href="restaurant-1.html">
+                    <img src="images/XXXL.jpeg" alt="Ресторан 1">
+                    <div class="overlay">
+                        <h2>Coffee & Botanica</h2>
+                        <p>Тверь Псковская 3</p>
+                    </div>
+                </a>
+            </div>
+            <div class="restaurant-item" data-target="#restaurant-2">
+                <a href="restaurant-2.html">
+                    <img src="images/XXXL.jpeg" alt="Ресторан 2">
+                    <div class="overlay">
+                        <h2>Me Gusta</h2>
+                        <p>Тверь Зеленая 9</p>
+                    </div>
+                </a>
+            </div>
+            <div class="restaurant-item" data-target="#restaurant-3">
+                <a href="restaurant-3.html">
+                    <img src="images/XXXL.jpeg" alt="Ресторан 3">
+                    <div class="overlay">
+                        <h2>Vibe</h2>
+                        <p>Тверь Оранжевая 11</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Секция "Наши продукты" -->
+        <section id="products" class="products-page">
+            <div class="products-background" style="background-image: url('images/watercolor-splash-background.jpg');"></div>
+            <div class="products-content">
+                <h2>Наши продукты</h2>
+                <div class="product-list">
+                    <div class="product-item">
+                        <a href="product-arabica.html">
+                            <img src="images/kisspng-coffee-roasting-cafe-espresso-kopi-luwak-5b3f6c8f634012.3714690315308832154065.jpg" alt="Кофейные зерна 1">
+                            <h3>Арабика</h3>
+                            <p>Насыщенный вкус с нотками шоколада и цитрусов.</p>
+                        </a>
+                    </div>
+                    <div class="product-item">
+                        <a href="product-robusta.html">
+                            <img src="images/kisspng-coffee-roasting-cafe-espresso-kopi-luwak-5b3f6c8f634012.3714690315308832154065.jpg" alt="Кофейные зерна 2">
+                            <h3>Робуста</h3>
+                            <p>Крепкий кофе с горьковатым послевкусием.</p>
+                        </a>
+                    </div>
+                    <div class="product-item">
+                        <a href="product-blend.html">
+                            <img src="images/kisspng-coffee-roasting-cafe-espresso-kopi-luwak-5b3f6c8f634012.3714690315308832154065.jpg" alt="Кофейные зерна 3">
+                            <h3>Смесь</h3>
+                            <p>Идеальный баланс арабики и робусты.</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция "Франшиза" -->
+        <section id="franchise" class="franchise-page">
+            <div class="franchise-background" style="background-image: url('images/watercolor-splash-background.jpg');"></div>
+            <div class="franchise-content">
+                <h2>Франшиза</h2>
+                <div class="franchise-info">
+                    <img src="images/XXXL(1).jpeg" alt="Франшиза">
+                    <p>
+                        Присоединяйтесь к нашей сети кофеен! Мы предлагаем выгодные условия франшизы,
+                        поддержку на всех этапах и готовые решения для успешного бизнеса.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- Подключение JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

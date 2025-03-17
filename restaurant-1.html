@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee & Botanica</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+</head>
+<body class="restaurant-page">
+    <!-- Спиннер загрузки -->
+    <div id="loading-bar-spinner" class="spinner"><div class="spinner-icon"></div></div>
+
+    <!-- Анимация крестика -->
+    <div class="menu-icon" id="menu-icon">
+        <span></span>
+        <span></span>
+    </div>
+
+    <!-- Боковое меню -->
+    <div class="sidebar" id="sidebar">
+        <div class="logo-details">
+            <span class="logo_name">Coffee & Botanica</span>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <a href="index.html">
+                    <i class='bx bx-home'></i>
+                    <span class="link_name">Главная</span>
+                </a>
+            </li>
+            <li>
+                <a href="index.html#restaurants">
+                    <i class='bx bx-restaurant'></i>
+                    <span class="link_name">Рестораны</span>
+                </a>
+            </li>
+            <li>
+                <a href="index.html#products">
+                    <i class='bx bx-coffee'></i>
+                    <span class="link_name">Наши продукты</span>
+                </a>
+            </li>
+            <li>
+                <a href="index.html#franchise">
+                    <i class='bx bx-store'></i>
+                    <span class="link_name">Франшиза</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Основной контент -->
+    <section class="home-section">
+        <!-- Информация о ресторане -->
+        <section class="restaurant-page">
+            <div class="restaurant-info">
+                <h2>Coffee & Botanica</h2>
+                <p>Время работы: Пн-Пт 09:00 - 22:00</p>
+                <p>Адрес: г. Тверь, улица Псковская, 3</p>
+                <p>Телефон: 89230010101</p>
+                <p>Email: cofee@.ru</p>
+            </div>
+
+            <!-- Галерея с фото -->
+            <div class="restaurant-gallery">
+                <div class="gallery-item">
+                    <img src="images/XXXL.jpeg" alt="Ресторан 1 Фото 1">
+                    <div class="gallery-overlay">
+                        <p>Описание фото 1</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/XXXL.jpeg" alt="Ресторан 1 Фото 2">
+                    <div class="gallery-overlay">
+                        <p>Описание фото 2</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/XXXL.jpeg" alt="Ресторан 1 Фото 3">
+                    <div class="gallery-overlay">
+                        <p>Описание фото 3</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Описание ресторана -->
+            <div class="restaurant-description">
+                <p>Описание ресторана 1. Здесь можно добавить больше текста о ресторане, его истории, кухне и особенностях.</p>
+            </div>
+        </section>
+    </section>
+
+    <!-- Подключение JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

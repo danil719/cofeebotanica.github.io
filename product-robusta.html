@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Робуста</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+</head>
+<body>
+    <!-- Спиннер загрузки -->
+    <div id="loading-bar-spinner" class="spinner"><div class="spinner-icon"></div></div>
+
+    <!-- Анимация крестика -->
+    <div class="menu-icon" id="menu-icon">
+        <span></span>
+        <span></span>
+    </div>
+
+    <!-- Боковое меню -->
+    <div class="sidebar" id="sidebar">
+        <div class="logo-details">
+            <span class="logo_name">Coffee & Botanica</span>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <a href="index.html">
+                    <i class='bx bx-home'></i>
+                    <span class="link_name">Главная</span>
+                </a>
+            </li>
+            <li>
+                <a href="index.html#restaurants">
+                    <i class='bx bx-restaurant'></i>
+                    <span class="link_name">Рестораны</span>
+                </a>
+            </li>
+            <li>
+                <a href="index.html#products">
+                    <i class='bx bx-coffee'></i>
+                    <span class="link_name">Наши продукты</span>
+                </a>
+            </li>
+            <li>
+                <a href="index.html#franchise">
+                    <i class='bx bx-store'></i>
+                    <span class="link_name">Франшиза</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Основной контент -->
+    <section class="home-section">
+        <section class="product-detail-page">
+            <div class="product-detail-background" style="background-image: url('images/watercolor-splash-background.jpg');"></div>
+            <div class="product-detail-content">
+                <h2>Робуста</h2>
+                <div class="product-detail">
+                    <img src="images/coffee-beans-1.jpg" alt="Кофейные зерна 1">
+                    <h3>Насыщенный вкус с нотками шоколада и цитрусов.</h3>
+                    <p>Арабика — это сорт кофе, который отличается мягким вкусом и насыщенным ароматом. Идеально подходит для тех, кто ценит изысканные кофейные напитки.</p>
+                    <a href="index.html" class="back-button">Вернуться к продуктам</a>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- Подключение JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
